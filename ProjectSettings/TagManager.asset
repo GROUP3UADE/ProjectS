@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - PlayerDetection
+  - EnemyZombie
+  - EnemyBoss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Mapa
+  - Water
+  - UI
+  - Player
+  - Obstacles
+  - Walls
+  - Camera
+  - PlayerAttack
+  - Enemy
+  - MiniMap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3816549751
+    locked: 0
+  - name: Player
+    uniqueID: 3786120973
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3136864289
+    locked: 0
+  - name: Object
+    uniqueID: 2028180561
+    locked: 0
+  - name: Mapa
+    uniqueID: 137596877
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemies
+    uniqueID: 468264497
+    locked: 0
+  - name: NPCS
+    uniqueID: 3855355001
+    locked: 0

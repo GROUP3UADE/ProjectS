@@ -1,0 +1,723 @@
+fileFormatVersion: 2
+guid: dae25169d69440748ae9eb167e2035aa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Road barricade_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 80
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -4.5}
+        - {x: -13, y: 4.5}
+        - {x: -12, y: 4.5}
+        - {x: -12, y: 5.5}
+        - {x: -11, y: 5.5}
+        - {x: -11, y: 6.5}
+        - {x: 11, y: 6.5}
+        - {x: 11, y: 5.5}
+        - {x: 12, y: 5.5}
+        - {x: 12, y: 4.5}
+        - {x: 13, y: 4.5}
+        - {x: 13, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f265cf55753fba458d72b89f1d68058
+      internalID: 1442560131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 65
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -6}
+        - {x: -9, y: 0}
+        - {x: 4, y: 12}
+        - {x: 8, y: 8}
+        - {x: 8, y: 3}
+        - {x: 10, y: 2}
+        - {x: -4, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926d12625b5745147b4392b89c870256
+      internalID: -1820396446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 65
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 2}
+        - {x: -8, y: 9}
+        - {x: -5, y: 12}
+        - {x: 9, y: 0}
+        - {x: 11, y: -6}
+        - {x: 4, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3602b86c63878f4cb040a74a58d9338
+      internalID: -2005381848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 65
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -6}
+        - {x: -9, y: -1}
+        - {x: 4, y: 12}
+        - {x: 9, y: 8}
+        - {x: 10, y: 1}
+        - {x: -3, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d372cecf5543d418d0ea89afbf0461
+      internalID: 637135086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 65
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -7}
+        - {x: 4, y: -11}
+        - {x: -6, y: -2}
+        - {x: -10, y: 2}
+        - {x: -8, y: 10}
+        - {x: -4, y: 12}
+        - {x: 9, y: -1}
+        - {x: 9, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34029fd144f400f48bd6c599e457aced
+      internalID: -925299523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12, y: 5.5}
+        - {x: 12, y: 4.5}
+        - {x: 13, y: 4.5}
+        - {x: 13, y: -4.5}
+        - {x: -13, y: -4.5}
+        - {x: -13, y: 4.5}
+        - {x: -12, y: 4.5}
+        - {x: -12, y: 5.5}
+        - {x: -11, y: 5.5}
+        - {x: -11, y: 6.5}
+        - {x: 11, y: 6.5}
+        - {x: 11, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245b4f487499ea34a8941e1987546254
+      internalID: 229319727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 48
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -4.5}
+        - {x: -13, y: 4.5}
+        - {x: -12, y: 4.5}
+        - {x: -12, y: 5.5}
+        - {x: -11, y: 5.5}
+        - {x: -11, y: 6.5}
+        - {x: 11, y: 6.5}
+        - {x: 11, y: 5.5}
+        - {x: 12, y: 5.5}
+        - {x: 12, y: 4.5}
+        - {x: 13, y: 4.5}
+        - {x: 13, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bead0196fa1a54d96f594e62bda47c
+      internalID: 1870078881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 33
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -6}
+        - {x: -8, y: -1}
+        - {x: 4, y: 12}
+        - {x: 8, y: 9}
+        - {x: 8, y: 3}
+        - {x: 10, y: 1}
+        - {x: -3, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dbc96e7d431dc4384f992badd81055
+      internalID: -1945102019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 33
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 1}
+        - {x: -8, y: 9}
+        - {x: -4, y: 12}
+        - {x: 7, y: 2}
+        - {x: 11, y: -6}
+        - {x: 4, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d83bcbb0f3ab7e48a67cac746b4df4d
+      internalID: 1113445624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 33
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -6}
+        - {x: -9, y: 0}
+        - {x: 4, y: 12}
+        - {x: 8, y: 9}
+        - {x: 8, y: 4}
+        - {x: 11, y: 2}
+        - {x: -4, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a432abfe415c3b04ea7ed9bb9eec5a36
+      internalID: 585274201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 33
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 1}
+        - {x: -8, y: 3}
+        - {x: -8, y: 9}
+        - {x: -4, y: 12}
+        - {x: 9, y: -1}
+        - {x: 11, y: -5}
+        - {x: 4, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec1202d35a5d95439963601ed4e3d19
+      internalID: 726966708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -4.5}
+        - {x: -13, y: 4.5}
+        - {x: -12, y: 4.5}
+        - {x: -12, y: 5.5}
+        - {x: -11, y: 5.5}
+        - {x: -11, y: 6.5}
+        - {x: 11, y: 6.5}
+        - {x: 11, y: 5.5}
+        - {x: 12, y: 5.5}
+        - {x: 12, y: 4.5}
+        - {x: 13, y: 4.5}
+        - {x: 13, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1a2079649b93147b8146ed3e7411cd
+      internalID: -1005629079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -4.5}
+        - {x: -13, y: 4.5}
+        - {x: -12, y: 4.5}
+        - {x: -12, y: 5.5}
+        - {x: -11, y: 5.5}
+        - {x: -11, y: 6.5}
+        - {x: 11, y: 6.5}
+        - {x: 11, y: 5.5}
+        - {x: 12, y: 5.5}
+        - {x: 12, y: 4.5}
+        - {x: 13, y: 4.5}
+        - {x: 13, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770ec73c652009e46a372c2a72b905ee
+      internalID: 1156207668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -12}
+        - {x: -10, y: -6}
+        - {x: -9, y: -1}
+        - {x: 4, y: 12}
+        - {x: 8, y: 9}
+        - {x: 7, y: 3}
+        - {x: 10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a862c14ea0086b4e88aa9c148c6fa6b
+      internalID: 1219907334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: 2}
+        - {x: -7, y: 3}
+        - {x: -7, y: 9}
+        - {x: -4, y: 12}
+        - {x: 9, y: -1}
+        - {x: 11, y: -6}
+        - {x: 4, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f9f2312cdb4ae4cb0d6f81ab98cc1a
+      internalID: -123789398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -5}
+        - {x: -8, y: 0}
+        - {x: -1, y: 7}
+        - {x: 5, y: 11}
+        - {x: 8, y: 8}
+        - {x: 8, y: 3}
+        - {x: 10, y: 1}
+        - {x: -4, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcba58ab97bd3d49909ea4892178515
+      internalID: 55882138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: -6}
+        - {x: 4, y: -11}
+        - {x: -9, y: 1}
+        - {x: -7, y: 3}
+        - {x: -7, y: 9}
+        - {x: -4, y: 12}
+        - {x: 3, y: 4}
+        - {x: 9, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ed57616c1f87140b2f3edab2b3cb72
+      internalID: -370489295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Road barricade_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -4.5}
+        - {x: -13, y: 4.5}
+        - {x: -12, y: 4.5}
+        - {x: -12, y: 5.5}
+        - {x: -11, y: 5.5}
+        - {x: -11, y: 6.5}
+        - {x: 11, y: 6.5}
+        - {x: 11, y: 5.5}
+        - {x: 12, y: 5.5}
+        - {x: 12, y: 4.5}
+        - {x: 13, y: 4.5}
+        - {x: 13, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e203d86bf6294de45aaa77b83b1aa086
+      internalID: -477167245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Road barricade_0: 1442560131
+      Road barricade_1: -1820396446
+      Road barricade_10: 726966708
+      Road barricade_11: -1005629079
+      Road barricade_12: 1156207668
+      Road barricade_13: 1219907334
+      Road barricade_14: -123789398
+      Road barricade_15: 55882138
+      Road barricade_16: -370489295
+      Road barricade_17: -477167245
+      Road barricade_2: -2005381848
+      Road barricade_3: 637135086
+      Road barricade_4: -925299523
+      Road barricade_5: 229319727
+      Road barricade_6: 1870078881
+      Road barricade_7: -1945102019
+      Road barricade_8: 1113445624
+      Road barricade_9: 585274201
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

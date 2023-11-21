@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: 68b8b9207dcac35489f1d7360963f92c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Traffic Light_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 79
+        height: 75
+      alignment: 9
+      pivot: {x: 0.9, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 35.040512, y: -36.718925}
+        - {x: 25.614899, y: -35.154354}
+        - {x: 27.614525, y: -25.085093}
+        - {x: 29.265976, y: -20.499996}
+        - {x: 34.5, y: -20.5}
+        - {x: 35.63672, y: -24.89395}
+        - {x: 38.255592, y: -33.214508}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909c6990aed0083458d21dd4bda4b886
+      internalID: -1390599099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traffic Light_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 79
+        height: 75
+      alignment: 9
+      pivot: {x: 0.1, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -36.84916, y: -35.55854}
+        - {x: -38.041176, y: -30.335886}
+        - {x: -37.050873, y: -26.638765}
+        - {x: -34.45443, y: -25.097553}
+        - {x: -34.33603, y: -19.458126}
+        - {x: -28.5, y: -19.5}
+        - {x: -28.054901, y: -24.619783}
+        - {x: -25.576332, y: -26.672714}
+        - {x: -25.181274, y: -29.819498}
+        - {x: -25.739136, y: -34.676796}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d7d3a2f53113e4b9592ac6a5dc8b8b
+      internalID: 2019962578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traffic Light_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 16
+        width: 14
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.366745, y: -62.5}
+        - {x: -5.702957, y: -60.819603}
+        - {x: -6.7575073, y: -53.57276}
+        - {x: -3.257843, y: -51.09443}
+        - {x: -3.3293304, y: -43.610947}
+        - {x: 3, y: -43.5}
+        - {x: 3.0047302, y: -50.869358}
+        - {x: 6.7459717, y: -53.708153}
+        - {x: 6.0627594, y: -60.153923}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54240918322f65a49a02b34103f75b5a
+      internalID: 813436743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Traffic Light_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1
+        width: 15
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2.7762299, y: -27.097628}
+        - {x: -3.4710846, y: -26.51537}
+        - {x: -5.914383, y: -22.566124}
+        - {x: -2.79924, y: -18.338444}
+        - {x: -2.9158783, y: -11.748093}
+        - {x: 2.5, y: -12}
+        - {x: 3.2372437, y: -18.198406}
+        - {x: 6.2891846, y: -20.010422}
+        - {x: 6.3028107, y: -25.337036}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13149cd963f04cd4cafcbe9b6eb27d19
+      internalID: -795242399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Traffic Light_0: -1390599099
+      Traffic Light_1: 2019962578
+      Traffic Light_2: 813436743
+      Traffic Light_3: -795242399
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

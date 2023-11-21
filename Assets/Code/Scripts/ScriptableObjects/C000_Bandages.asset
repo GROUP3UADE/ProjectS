@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9b2f51d70c0734bb140b441126aac4, type: 3}
+  m_Name: C000_Bandages
+  m_EditorClassIdentifier: 
+  id: 0
+  identifier: Medkit
+  description: A small medkit with healing supplies.
+  icon: {fileID: 21300000, guid: ed7ddb02b5a32c64aaf1937db8eece13, type: 3}
+  itemCategories: 2
+  stats: {fileID: 0}
+  itemAction: {fileID: 11400000, guid: ef33f016a9b77a0438bee4766ba204a1, type: 2}

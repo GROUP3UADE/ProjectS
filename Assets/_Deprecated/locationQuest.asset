@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858b3cdf1eb938542b6c9264aae66e92, type: 3}
+  m_Name: locationQuest
+  m_EditorClassIdentifier: 
+  questName: Find the Fire Department
+  questObjectives:
+  - {fileID: 11400000, guid: 9d24c972577baaf41b41b80ec6b0e233, type: 2}
+  questState: 3
+  questReward: {fileID: 11400000, guid: 0dcd78f14e492584a9e5f9961987f5f9, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9b2f51d70c0734bb140b441126aac4, type: 3}
+  m_Name: C002_Painkillers
+  m_EditorClassIdentifier: 
+  id: 2
+  identifier: Painkillers
+  description: Some pills to patch you out in an emergency.
+  icon: {fileID: 3279024273938708781, guid: d6a341a75286a744d97b5409554c1081, type: 3}
+  itemCategories: 2
+  stats: {fileID: 0}
+  itemAction: {fileID: 11400000, guid: eca0ee56136a4d744a29fbd7ce9f2f8c, type: 2}

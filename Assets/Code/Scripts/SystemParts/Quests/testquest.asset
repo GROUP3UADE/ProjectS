@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858b3cdf1eb938542b6c9264aae66e92, type: 3}
+  m_Name: testquest
+  m_EditorClassIdentifier: 
+  questName: Gather Wood
+  questObjectives:
+  - {fileID: 11400000, guid: b2e4dd493ee356f4a85f0b8341a87a07, type: 2}
+  questState: 0
+  questReward: {fileID: 11400000, guid: 360010807e979e841ab889e7519d69ab, type: 2}

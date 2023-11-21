@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de1f40326a35b149a49470ee8055b30, type: 3}
+  m_Name: M003_Rope
+  m_EditorClassIdentifier: 
+  id: 3
+  identifier: Rope
+  description: A simple rope that can be used for crafting.
+  icon: {fileID: -7019833928452353440, guid: d6a341a75286a744d97b5409554c1081, type: 3}
+  itemCategories: 3
+  stats: {fileID: 0}

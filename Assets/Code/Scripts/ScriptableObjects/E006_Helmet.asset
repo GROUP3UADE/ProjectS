@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058360f2a61232c4f9f3b925e4d8ced8, type: 3}
+  m_Name: E006_Helmet
+  m_EditorClassIdentifier: 
+  id: 6
+  identifier: Helmet
+  description: A piece of armor used to protect your head.
+  icon: {fileID: -3534365563838519784, guid: d6a341a75286a744d97b5409554c1081, type: 3}
+  itemCategories: 1
+  stats: {fileID: 11400000, guid: 00a39e9e25b1ac54d8d586427fde391d, type: 2}
