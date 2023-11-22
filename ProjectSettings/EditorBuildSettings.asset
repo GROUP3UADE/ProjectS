@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Levels/Scenes/BetaMap.unity
     guid: 84fcdda3494f4bb4aa7b2cf843af26dd
   - enabled: 1
-    path: Assets/Levels/Scenes/Victory.unity
-    guid: 182657c3e2bf10847902f1a8d47677a8
-  - enabled: 1
     path: Assets/Levels/Scenes/GameOver.unity
-    guid: fedf8a336dba5804c8ceabf2d8f0b64a
+    guid: ac0029774e081ee44a049ff921e2e946
+  - enabled: 1
+    path: Assets/Levels/Scenes/WinScene.unity
+    guid: 7daa4410d485af3498703e8c5e986e2d
   m_configObjects: {}

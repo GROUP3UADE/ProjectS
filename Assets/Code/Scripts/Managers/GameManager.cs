@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    #endregion
+    #endregion Singleton
 
     public ItemDatabase ItemDatabase { get; private set; }
     public CraftDatabase CraftDatabase { get; private set; }
@@ -33,8 +33,9 @@ public class GameManager : MonoBehaviour
     public PlayerHealthBar PlayerHealthBar { get; private set; }
     public QuestManager QuestManager { get; private set; }
     public KillCountManager KillCountManager { get; private set; }
-    public GameObject _winPanel;
-    public GameObject _GOPanel;
+
+    //public GameObject _winPanel;
+    //public GameObject _GOPanel;
 
     private void Awake()
     {
@@ -63,11 +64,13 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        _GOPanel.SetActive(true);
+        //_GOPanel.SetActive(true);
+        SceneManager.LoadScene("GameOver");
     }
 
     public void GameWin()
     {
-        _winPanel.SetActive(true);
+        //_winPanel.SetActive(true);
+        SceneManager.LoadScene("WinScene");
     }
 }

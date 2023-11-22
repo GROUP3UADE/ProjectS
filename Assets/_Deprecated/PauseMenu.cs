@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
 
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -22,23 +22,31 @@ public class PauseMenu : MonoBehaviour
             }
         }
     }
+
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        //para que luego de pausar el mouse no haga cagadas:
+        Cursor.lockState = CursorLockMode.Confined;
     }
+
     public void Pause()
     {
-        pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;
-        GameIsPaused = true;
-        Cursor.lockState = CursorLockMode.None;
+        if (pauseMenuUI != null)
+        {
+            pauseMenuUI.SetActive(true);
+            Time.timeScale = 0f;
+            GameIsPaused = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
     }
+
     public void Menu()
     {
         Time.timeScale = 1f;
+        GameIsPaused = false;
         SceneManager.LoadScene("MainMenu");
     }
 

@@ -19,7 +19,7 @@ public class PlayerUIController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             AudioManager.Instance.PlayInventorySound();
             ScreenBg();
@@ -100,12 +100,15 @@ public class PlayerUIController : MonoBehaviour
             case 0:
                 ShowInventory();
                 break;
+
             case 1:
                 ShowCrafting();
                 break;
+
             case 2:
                 ShowEquipment();
                 break;
+
             default:
                 ShowInventory();
                 break;
