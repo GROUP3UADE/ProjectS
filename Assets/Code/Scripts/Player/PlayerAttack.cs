@@ -26,28 +26,15 @@ public class PlayerAttack : MonoBehaviour
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         
         attackCollider.enabled = true;
-        animator.SetTrigger(AttackAnimation);
+        //animator.SetTrigger(AttackAnimation);
         Invoke(nameof(TurnOffCollider), playerModel.AttackTime);
     }
 
     private void TurnOffCollider()
     {
         attackCollider.enabled = false;
-        animator.ResetTrigger(AttackAnimation);
         _attacked.Clear(); // And this is worse
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (_attacked.Contains(other.gameObject)) return; // This can't be good
-        
-        var damageable = other.gameObject.GetComponent<IDamageable>();
-        damageable?.Damage(damage);
-
-        GameObject o;
-        var knockable = (o = other.gameObject).GetComponent<IKnockable>();
-        knockable?.Knock(knockForce, (o.transform.position - transform.position).normalized);
-        
-        _attacked.Add(other.gameObject);
-    }
+    
 }

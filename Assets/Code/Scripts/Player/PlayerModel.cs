@@ -1,24 +1,36 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerModel : MonoBehaviour, IKnockable, IDamageable
 {
+    #region Setups
+
     [Range(0, 10)][SerializeField] private float baseSpeed = 5f;
     [Range(0, 10)][SerializeField] private float attackTime;
     [Range(1, .1f)][SerializeField] private float knockBackResistance;
     [SerializeField] private PlayerAttack playerAttack;
 
-    public Health Health { get; private set; }
+    #endregion
+
+    #region Miembros privados
+
     private Rigidbody2D _rigidbody;
     private Vector2 _lookAtDirection;
     private Vector2 _forward;
     private bool _attacking;
     private bool _idle;
     private float _currSpeed;
+
+    #endregion
+
+    #region Miembros publicos
+
+    public Health Health { get; private set; }
     public IInteractable InteractableGo { get; private set; }
 
+    #endregion
+    
     //VFX:
     [SerializeField] private GameObject bloodSpillPrefab;
 
@@ -72,7 +84,6 @@ public class PlayerModel : MonoBehaviour, IKnockable, IDamageable
 
     public void Attack()
     {
-        playerAttack.Attack();
         _attacking = true;
         Invoke(nameof(StopAttacking), attackTime);
     }

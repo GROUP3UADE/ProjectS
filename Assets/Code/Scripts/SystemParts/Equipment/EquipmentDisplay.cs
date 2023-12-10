@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -7,6 +6,9 @@ using UnityEngine.UI;
 
 public class EquipmentDisplay : MonoBehaviour
 {
+    #region Serializables
+
+
     [SerializeField] private GameObject popupMenu;
     [SerializeField] private List<UI_EquipSlotContainer> equippedItemSlots;
 
@@ -37,10 +39,16 @@ public class EquipmentDisplay : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI totalStrengthEquipped;
 
+    #endregion
+
+    #region Miembros privados
+
     private List<UI_ItemContainer> _itemsGenerated = new List<UI_ItemContainer>();
     private int _currentFilter;
     private int _lengthFilter;
     private EquipmentDatabase _equipmentDatabase;
+    
+    #endregion
 
     private void Awake()
     {

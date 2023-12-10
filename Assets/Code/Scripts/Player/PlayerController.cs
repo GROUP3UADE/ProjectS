@@ -5,8 +5,23 @@ namespace Character
 {
     public class PlayerController : MonoBehaviour
     {
-        [SerializeField] private InputController inputController;
-        [SerializeField] private PlayerModel playerModel;
+        #region Serializables
+
+        [SerializeField] 
+        private InputController inputController;
+        [SerializeField] 
+        private PlayerModel playerModel;
+        [SerializeField]
+        private WeaponPivotBehaviour _weaponController;
+
+        #endregion
+
+        #region Miembros privados
+
+        private Vector2 _lookDir;
+
+        #endregion
+
 
         private void Start()
         {
@@ -15,8 +30,11 @@ namespace Character
 
         private void Update()
         {
+            _lookDir = (inputController.MousePosition - (Vector2)transform.position).normalized;
+            print(_lookDir);
             playerModel.Move(inputController.Movement);
-            playerModel.LookAt((inputController.MousePosition - (Vector2)transform.position).normalized);
+            playerModel.LookAt(_lookDir);
+            
             if (Input.GetKeyDown(KeyCode.E))
             {
                 if (playerModel.InteractableGo != null)
@@ -30,5 +48,7 @@ namespace Character
         {
             playerModel.Attack();
         }
+
+        public void EquipWeapon(WeaponController w) => _weaponController.EquipWeapon(w);
     }
 }

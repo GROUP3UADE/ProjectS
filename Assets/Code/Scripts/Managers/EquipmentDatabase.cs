@@ -8,6 +8,7 @@ public enum EquipmentSlots
     Hands,
     Legs,
     Feet,
+    //Arma
     MainHand
 }
 
