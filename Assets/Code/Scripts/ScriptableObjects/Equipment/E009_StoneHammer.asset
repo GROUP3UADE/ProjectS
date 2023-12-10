@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60e9d03985e3c040aa02ec796362e75, type: 3}
+  m_Name: E009_StoneHammer
+  m_EditorClassIdentifier: 
+  id: 9
+  identifier: Stone Hammer
+  description: Stone Hammer
+  icon: {fileID: -1451850910, guid: 4ae260b9ab72a404897e31294732d1f3, type: 3}
+  itemCategories: 0
+  stats: {fileID: 11400000, guid: 85c7864e51378784da7d7e85969cd6da, type: 2}
+  WeaponPrefab: {fileID: 3339327424010075514, guid: 5c8f1c544b9fc804b817b3c21cb8a65f, type: 3}

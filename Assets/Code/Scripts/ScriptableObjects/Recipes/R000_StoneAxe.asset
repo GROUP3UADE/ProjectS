@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac5437c0d15ce04192da79dc1fd85a8, type: 3}
+  m_Name: R000_StoneAxe
+  m_EditorClassIdentifier: 
+  itemResult: {fileID: 11400000, guid: 788467724946103448f54318691ddd94, type: 2}
+  itemResultQuantity: 1
+  itemsRequired:
+  - {fileID: 11400000, guid: 92e3f518f67bde14289098b9b0bb7a26, type: 2}
+  - {fileID: 11400000, guid: 651de5568990d8b43b7df61d661762b5, type: 2}
+  itemsRequiredQuantity: 0300000002000000
