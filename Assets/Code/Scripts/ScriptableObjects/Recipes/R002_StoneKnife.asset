@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ac5437c0d15ce04192da79dc1fd85a8, type: 3}
   m_Name: R002_StoneKnife
   m_EditorClassIdentifier: 
-  itemResult: {fileID: 11400000, guid: 92e3f518f67bde14289098b9b0bb7a26, type: 2}
-  itemResultQuantity: 0
+  itemResult: {fileID: 11400000, guid: 7b0c114dad87e6d4aa619efa012e8df8, type: 2}
+  itemResultQuantity: 1
   itemsRequired:
   - {fileID: 11400000, guid: 92e3f518f67bde14289098b9b0bb7a26, type: 2}
   - {fileID: 11400000, guid: 651de5568990d8b43b7df61d661762b5, type: 2}
