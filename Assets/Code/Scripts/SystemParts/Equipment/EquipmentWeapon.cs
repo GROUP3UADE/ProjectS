@@ -3,6 +3,5 @@
 [CreateAssetMenu(fileName = "Weapon", menuName = "Scriptables/Item/Weapon", order = 5)]
 public class EquipmentWeapon : ItemSO
 {
-    [SerializeField]
-    private GameObject WeaponPrefab;
+    public GameObject WeaponPrefab;
 }

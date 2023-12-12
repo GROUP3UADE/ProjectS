@@ -49,6 +49,6 @@ namespace Character
             playerModel.Attack();
         }
 
-        public void EquipWeapon(WeaponController w) => _weaponController.EquipWeapon(w);
+        public void EquipWeapon(GameObject w) => _weaponController.EquipWeapon(w);
     }
 }

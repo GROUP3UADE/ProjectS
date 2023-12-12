@@ -1,3 +1,4 @@
+using Character;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -8,7 +9,7 @@ public class EquipmentDisplay : MonoBehaviour
 {
     #region Serializables
 
-
+    [SerializeField] private PlayerController _playerController;
     [SerializeField] private GameObject popupMenu;
     [SerializeField] private List<UI_EquipSlotContainer> equippedItemSlots;
 
@@ -129,6 +130,7 @@ public class EquipmentDisplay : MonoBehaviour
     private void EquipDelegate(ItemSO item)
     {
         _equipmentDatabase.PutEquipmentOn(item);
+        if (((EquipmentStatsSO)item.Stats).EquipSlot == EquipmentSlots.MainHand) _playerController.EquipWeapon(((EquipmentWeapon)item).WeaponPrefab);
         UpdateEquipmentUI();
     }
 

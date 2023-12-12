@@ -38,7 +38,11 @@ public abstract class WeaponPivotBehaviour : MonoBehaviour
     /// <exception cref="InvalidOperationException"></exception>
     public virtual void Attack() => throw new InvalidOperationException();
 
-    public void EquipWeapon(WeaponController w) => CurrentWeapon = Instantiate(w);
+    public void EquipWeapon(GameObject w)
+    {
+        Destroy(CurrentWeapon.gameObject);
+        CurrentWeapon = Instantiate(w, transform).GetComponent<WeaponController>();
+    }
 
     #endregion
 }
