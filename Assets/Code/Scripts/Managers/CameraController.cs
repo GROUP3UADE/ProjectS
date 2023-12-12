@@ -68,7 +68,7 @@ public class CameraController : MonoBehaviour
 
         newPosition.z = -10;
 
-        //transform.position = newPosition;
+        transform.position = newPosition;
     }
 
     private void OnDrawGizmos()

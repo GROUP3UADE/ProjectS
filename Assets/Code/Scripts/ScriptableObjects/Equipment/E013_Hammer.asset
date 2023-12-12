@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b60e9d03985e3c040aa02ec796362e75, type: 3}
-  m_Name: E009_StoneHammer
+  m_Name: E013_Hammer
   m_EditorClassIdentifier: 
-  id: 9
-  identifier: Stone Hammer
-  description: Stone Hammer
-  icon: {fileID: -1451850910, guid: 4ae260b9ab72a404897e31294732d1f3, type: 3}
+  id: 13
+  identifier: Hammer
+  description: Metal Hammer
+  icon: {fileID: -599221919, guid: 7e646bddc94b6384b997ce5fe82b5d1b, type: 3}
   itemCategories: 1
   stats: {fileID: 11400000, guid: a0cb60770da1ed44096adaebd56cabc9, type: 2}
-  WeaponPrefab: {fileID: 3339327424010075514, guid: 5c8f1c544b9fc804b817b3c21cb8a65f, type: 3}
+  WeaponPrefab: {fileID: 3339327424010075514, guid: d4ae4fa7f52a94544b4f5ede910049e9, type: 3}

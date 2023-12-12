@@ -2153,6 +2153,7 @@ MonoBehaviour:
   recipesSODatabase:
   - {fileID: 11400000, guid: aadae637d2bd8c24a8c8082cec96752f, type: 2}
   - {fileID: 11400000, guid: e6d0e5ea4170af84c803eb52798db8b1, type: 2}
+  - {fileID: 11400000, guid: d29d0e0db541a4a4e9b3a94a09f2360e, type: 2}
 --- !u!114 &2105397066207545128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2221,6 +2222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe2611f21dfa2a4289a5f94ae67626c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerController: {fileID: 0}
   popupMenu: {fileID: 8097736888366928239}
   equippedItemSlots:
   - {fileID: 5939107939972021700}

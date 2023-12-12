@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 397796a9a2b486b479462cec2f5117b1, type: 3}
   m_Name: E007_Stats
   m_EditorClassIdentifier: 
-  equipSlot: 2
+  equipSlot: 5
   armor: 0
   strength: 0

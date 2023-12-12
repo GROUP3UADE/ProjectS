@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c7001f57bd423141a4a4f389e72cddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _character: {fileID: 0}
-  _inputController: {fileID: 0}
-  _currentWeapon: {fileID: 0}
+  Character: {fileID: 0}
+  Input: {fileID: 0}
+  CurrentWeapon: {fileID: 7179649632162213579, guid: 5c8f1c544b9fc804b817b3c21cb8a65f, type: 3}
